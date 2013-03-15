@@ -1,0 +1,107 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usetheme{Madrid}
+\usetheme{Antibes}
+%\usetheme{boxes}
+\usetheme{tree}
+%\usetheme{classic}
+\usecolortheme[RGB={122,59,122}]{structure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title[Presentación con Beamer]{Clase de Problemas }
+\author[Sergio Vega García]{Sergio Vega García}
+\date[15-03-2013]{15 de marzo de 2013}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%%%%%%%%%%%%%%
+
+    \begin{frame}
+        \begin{scriptsize}
+            \begin{center}
+                Universidad de La Laguna\cite{ULL}\\
+                Técnicas experimentales\cite{TE} \\
+                Sergio Vega García
+             \end{center}
+         \end{scriptsize}
+    \end{frame}
+
+%%%%%%%%%%%%%
+    
+    \begin{frame}
+       \frametitle{Índice}  
+       \tableofcontents[pausesections]
+    \end{frame}
+
+%%%%%%%%%%%%%    
+    
+\section{Igualdades Trigonométricas}
+
+ \begin{frame}
+
+ \frametitle{Igualdades Trigonométricas}
+
+\begin{center}
+  
+   $sen^2(x) + cos^2(x) = 1$\\   
+   \vspace{1.5cm}
+   $tan(x) = \frac{sen(x)}{cos(x)}$
+   
+  
+\end{center}
+
+ 
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%
+
+\section{Otras Igualdades}
+
+\begin{frame}
+ 
+ \frametitle{Otras Igualdades}
+ 
+\begin{center}
+ 
+ $f'(x)= lim_{x\to\infty}(\frac{f(x+h)-f(x)}{h})$\\
+ \vspace{0.75cm}
+ $f(x)= \int f'(x)$\\
+ \vspace{0.75cm}
+ $\sum_{i=1}^{n}(aX+b) = a\frac{X_1 + X_2 + ... + X_n}{n} + b$
+ 
+\end{center} 
+ 
+\end{frame}
+
+%%%%%%%%%%%%%%%%
+
+\section{Bibliografía}
+
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem{ULL}
+    www.ull.es
+    
+    \beamertemplatebookbibitems
+    \bibitem{TE}
+    Materia del Grado en Matemáticas.
+
+  \end{thebibliography}
+\end{frame}
+
+%%%%%%%%%%%%%%%%
+
+\end{document}

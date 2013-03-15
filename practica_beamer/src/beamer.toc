@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Igualdades Trigonom\IeC {\'e}tricas}{5}{0}{1}
+\beamer@sectionintoc {2}{Otras Igualdades}{6}{0}{2}
+\beamer@sectionintoc {3}{Bibliograf\IeC {\'\i }a}{7}{0}{3}
